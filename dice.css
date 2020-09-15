@@ -1,0 +1,27 @@
+.container {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dice {
+  background-color: white;
+  margin: 1px;
+  width: 30px;
+  height: 30px;
+}
+
+#c1 {
+  position: relative;
+  left: 35%;
+  top: 60px;
+}
+
+#c2 {
+  position: relative;
+  right: 130px;
+  top: 60px;
+}
